@@ -1,0 +1,53 @@
+* {
+    font-family: Arial, Helvetica, 'TimesNewRoman';
+}
+body {
+    background-color: pink;
+}
+
+div.P {
+    font-family: Helvetica, Arial, 'TimesNewRoman';
+    background-color: wheat;
+    padding-bottom: 2%;
+    padding-right: 2%; 
+    height: 50%;
+    width: 50%;
+}
+#a {
+    font-family: Arial;
+    display: block;
+    list-style: none;
+    height: 20px;
+    width: 100%;
+    margin: 3px;
+    padding:3px;
+}
+#a>li {
+    float:left;
+    position:relative;
+    text-decoration: none;
+}
+li {
+    margin: 5px;
+    padding: 3px;
+    background-color: white;
+    list-style: none;
+}
+#a li:hover ul {
+    visibility: visible;
+}
+#a li ul {
+    visibility: hidden;
+    list-style: none;
+    padding: 3px;
+    position:absolute;
+}
+
+a href {
+    color: black;
+}
+img {
+    height: 15%;
+    width: 90%;
+    position: relative;
+}
